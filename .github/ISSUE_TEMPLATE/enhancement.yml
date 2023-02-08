@@ -1,0 +1,29 @@
+name: Enhancement
+description: Request an enhancement, change, or minor feature
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: enhancement-summary
+    attributes:
+      label: Enhancement Summary
+      description: What is the proposed change or enhancement? What is the current behaviour vs the new behaviour?
+      # placeholder: X was expecting Y to do Z, but got _____ instead
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: What is the rationale behind this enhancement? Why should we build this?
+      # placeholder: X thought it was going to do Y
+    validations:
+      required: false  
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: If there is an Issue, Task, etc. associated with this enhancement, link to it here
+      # placeholder: When X did Y, Z happened
+    validations:
+      required: false
