@@ -13,10 +13,16 @@
   - [ ] Includes a database or data migration
   - [ ] This PR introduce a breaking / non-backward-compatible change
 
+<!-- tasklist -->
+### Required Checks
+_checks in this section are required for merging_
+  - [ ] QA Approved
+<!-- /tasklist -->
+
 ---
 
 ### References
-Closes Issue #
+AB#
 
 ### Dependencies
 Requires PR #
